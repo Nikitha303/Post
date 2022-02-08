@@ -86,7 +86,7 @@ public class Appointment {
 	
 	@NotNull
 	@Size(max=25)
-	@NotBlank(message = "trainerprefwerence is mandatory")
+	@NotBlank(message = "trainerpreference is mandatory")
 	@NotEmpty
 	private String trainerpreference;
 	
